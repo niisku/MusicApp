@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@drawable/sandals"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/title_style"
+            android:text="@string/text_title" />
+
+        <TextView
+            style="@style/app_description_style"
+            android:text="@string/text_appDescription" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_continue"
+        style="@style/main_button_styles"
+        android:text="@string/text_continue" />
+
+    <Button
+        android:id="@+id/button_playlist"
+        style="@style/main_button_styles"
+        android:text="@string/text_playlist" />
+
+    <Button
+        android:id="@+id/button_allLessons"
+        style="@style/main_button_styles"
+        android:text="@string/text_allPodcasts" />
+
+    <Button
+        android:id="@+id/button_settings"
+        style="@style/main_button_styles"
+        android:layout_marginBottom="8dp"
+        android:text="@string/text_settings" />
+
+</LinearLayout>

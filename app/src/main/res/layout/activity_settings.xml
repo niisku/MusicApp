@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.musicapp.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/toMain"
+            style="@style/navigation_top"
+            android:text="@string/text_toMain" />
+
+        <Button
+            android:id="@+id/toContinue"
+            style="@style/navigation_top"
+            android:text="@string/text_toContinue" />
+
+        <Button
+            android:id="@+id/toPlaylist"
+            style="@style/navigation_top"
+            android:text="@string/text_toPlaylist" />
+
+        <Button
+            android:id="@+id/toLessons"
+            style="@style/navigation_top"
+            android:text="@string/text_toLessons" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/activity_titles"
+        android:text="@string/title_settings" />
+
+    <ScrollView style="@style/scrollviews_in_activities">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/information_texviews"
+                android:text="@string/information_settings">
+
+            </TextView>
+
+            <ImageView
+                style="@style/example_images"
+                android:src="@drawable/example_settings" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

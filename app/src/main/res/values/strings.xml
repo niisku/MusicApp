@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="text_title">Learning while Living</string>
+    <string name="text_appDescription">Listen Android lessons on the go</string>
+    <string name="text_continue">Continue Playing</string>
+    <string name="text_playlist">Own Playlist</string>
+    <string name="text_allPodcasts">All Lessons</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_toMain">Main</string>
+    <string name="text_toContinue">Player</string>
+    <string name="text_toPlaylist">Own Playlist</string>
+    <string name="text_toLessons">All Lessons</string>
+    <string name="text_toSettings">Settings</string>
+    <string name="title_continue">Player</string>
+    <string name="title_playlist">Own Playlist</string>
+    <string name="title_podcasts">All Lessons</string>
+    <string name="title_settings">Settings</string>
+    <string name="information_player"><b>Now playing: 3.1. Data Types.</b> \n<i>This would be where the player is, and its created using MediaPlayer object.
+        \nBesides the title of the lesson, it should also include a short description about the content of the lesson, so that the text could also be used when searched lessons using keywords.</i> </string>
+    <string name="information_nextplaying">Here are the next lessons, put in ListView mode + with ScrollView. \nFirst item to be shown in the list is the previous lesson, and e.g. next three list items would be the next 3 lessons. All list items have also play button to play it straight away, and a + button to add it on the Playlist.
+        \nEach lesson here has title, duration and option to add it to the playlist. \n(See a POOR example below, due to space constraints).</string>
+    <string name="information_playlist">Here are the saved lessons as a list, using ListView and ArrayAdapter.
+        \nThe list should have the lesson number, title, duration and option to remove them from the playlist. The lessons should also contain some keywords (to allow search function, in case the user wants to hear lessons that cover certain terms).
+        \nAn example of the view can be seen below; however I was not able to find exactly that kind of image I have in mind, but the idea is quite similar to the image in the Continue activity (where should also be checkboxes to add or remove lessons from the own playlist).</string>
+    <string name="query_hint">Type Search Here</string>
+    <string name="information_podcasts">Here is a list of all lessons available. The idea and functionality is similar to the Playlist activity, including the possibility to add and remove lessons to the Playlist. Most visible difference is that when in the Playlist activity the list shows only the selected lessons, here are all the available lessons. </string>
+    <string name="information_settings">Here are different settings options. They should be as intuitive as possible, with e.g. Switch views when applicable (As in the example image below).
+    \nThey should include at least 1.) Possibility to check whether new lessons are published,
+    2.) How the new lessons are downloaded (anytime or only using wifi), 3.) What kind of notifications are shown, 4.) Information about the terms of use, 5.) Information how to contact for user support 6.) Instructions of use. </string>
+
+
+
+    </resources>
